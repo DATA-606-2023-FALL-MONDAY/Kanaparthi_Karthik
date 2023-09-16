@@ -3,7 +3,7 @@
 ## Title: Medical Insurance Price Prediction
 
 - Prepared for UMBC Data Science master’s degree Capstone by Dr. Chaojie (Jay) Wang
-- ## Author name: Kanaparthi J S Karthik
+- Author name: Kanaparthi J S Karthik
 - [GitHub](https://github.com/kjskarthik)
 - [LinkedIn](https://www.linkedin.com/in/kanaparthi-j-s-karthik-09b244148/)
 - Powerpoint presentation - TBD

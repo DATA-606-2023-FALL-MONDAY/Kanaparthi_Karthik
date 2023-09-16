@@ -33,4 +33,4 @@ Data collection, preprocessing, model choice, training, and evaluation are the m
     - **Region:** This column probably contains information about the individuals' locations or regions. Due to variables like healthcare costs and regional regulations, insurance costs can differ by region.
     - **Expenses:** The insurance costs or premiums that each person has likely paid are listed in this column. This is the sum that people pay each year for their insurance coverage.
     
-**Main target columns are Age, Expenses, Smoker but will use all in model development.**
+- **Main target columns are Age, Expenses, Smoker but will use all in model development.**

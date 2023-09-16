@@ -1,4 +1,6 @@
-# Medical Insurance Price Prediction
+# DATA 606 CAPSTONE PROPOSAL
+
+## Medical Insurance Price Prediction
 
 - Prepared for UMBC Data Science master’s degree Capstone by Dr. Chaojie (Jay) Wang
 - Kanaparthi J S Karthik

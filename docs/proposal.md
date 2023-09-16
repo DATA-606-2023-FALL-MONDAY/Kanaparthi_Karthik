@@ -4,6 +4,8 @@
 - Kanaparthi J S Karthik
 - [GitHub](https://github.com/kjskarthik)
 - [LinkedIn](https://www.linkedin.com/in/kanaparthi-j-s-karthik-09b244148/)
+- Powerpoint presentation - TBD
+- Youtube Video - TBD 
 
 ## Background
 

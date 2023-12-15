@@ -1,0 +1,88 @@
+# Medical Insurance Price Prediction
+## Title and Author
+- Project Title: Medical Insurance Price Prediction
+- Prepared for UMBC Data Science Master Degree Capstone under the guidance of Dr Chaojie (Jay) Wang
+- Author Name: Karthik Kanaparthi
+- Fall 2023 Semester
+- [GitHub](https://github.com/DATA-606-2023-FALL-MONDAY/Kanaparthi_Karthik)
+- [LinkedIn](https://www.linkedin.com/in/kanaparthi-j-s-karthik-09b244148/)
+- [PowerPoint Presentation]()
+- [Youtube Video]()
+
+## Background
+#### What is this project about?
+Machine learning (ML) is a technique used to predict medical insurance prices. ML algorithms examine large datasets to forecast health insurance premiums. These algorithms look for patterns and correlations by considering different variables such as age, gender, smoking status, and lifestyle. This data-driven strategy improves healthcare industry efficiency by assisting insurance companies in more precisely determining premiums and customizing policies to meet the needs of each individual.
+
+In this case, the application of ML signifies a move toward more individualized insurance pricing. This method offers a more nuanced and fair way to determine insurance costs using sophisticated analytics and complex datasets. This could result in more equitable pricing strategies and improved risk management for insurance providers.
+#### Why does Medical Insurance matter?
+Medical insurance is essential because it protects people from exorbitant medical care expenses. It considerably lessens the financial burden on individuals by paying for a variety of costs, including hospital stays, therapies, and prescription drugs. This protection is crucial because it guarantees access to necessary medical treatments without the burden of prohibitive costs, particularly in emergencies or for chronic conditions requiring ongoing care.
+
+Medical insurance also promotes preventative care, which results in an earlier diagnosis and course of treatment for health problems. By lowering costs and increasing accessibility to healthcare, it improves general public health. Financial stability is another benefit of insurance, as it shields people from unforeseen medical costs that could cause serious financial difficulties. This component of health insurance is especially important in nations where the cost of healthcare is high.
+#### Research Questions
+The primary research questions for Medical Insurance Price Prediction are as follows:
+1. How can health-related and demographic data be used by machine learning algorithms to accurately forecast medical insurance costs?
+2. What are the main determinants of medical insurance premium costs, and how do these determinants interact?
+3. To what extent can machine learning models predict an individual's future healthcare costs based on their lifestyle choices and current health status?
+4. How much does a person's location affect the cost of insurance, and how can machine learning account for these regional variations?
+5. How can medical insurance policies be customized to each person's needs using machine learning models while maintaining fair pricing?
+
+## Data
+#### Data source
+- **Data set:** [Kaggle](https://www.kaggle.com/datasets/noordeen/insurance-premium-prediction?datasetId=233212)
+- **Data size:** 51KB
+- **Data shape:** 1388(rows) x 7(columns/features)
+- ** The time frame for the dataset was from 2012-2016**
+- **Data Contains the following columns:**
+    - **Age:** The age of the individuals for whom insurance information is recorded is probably contained in this column. Age plays a significant role in risk assessment and insurance premiums.
+    - **Sex:** This column probably indicates the gender of the people, whether they are men or women. The cost of insurance can occasionally be influenced by gender.
+    - **BMI (Body Mass Index):** The values for each person's Body Mass Index are listed in this column. Insurance companies frequently use BMI, a number derived from a person's height and weight, to evaluate health risk.
+    - **Children:** This column probably lists how many children or other dependents each person has. When it comes to family insurance plans, the number of dependents may be important.
+    - **Smoker:** Whether the people are smokers or not is shown in this column. Smoking influences insurance rates because it increases the risk of many different health conditions.
+    - **Region:** This column probably contains information about the individuals' locations or regions. Due to variables like healthcare costs and regional regulations, insurance costs can differ by region.
+    - **Expenses:** The insurance costs or premiums that each person has likely paid are listed in this column. This is the sum that people pay each year for their insurance coverage.
+    
+- **Main target columns are Age, Expenses, and Smoker but will use all in model development**.
+#### Data Info
+<p align="center">
+  <img src="https://github.com/DATA-606-2023-FALL-MONDAY/Kanaparthi_Karthik/blob/main/pictures/Data%20Info.png" alt="Data Info and Description" width="auto" height="250">
+</p>
+
+<div align="justify">
+Data shows that there are no null values and consists of different data types like int, object, and float. The data description shows you the maximum number of counts, mean, and standard deviation.
+
+## Exploratory Data Analysis
+#### EDA 1 - Pie chart on how data divides between factors
+<p align="center">
+  <img src="https://github.com/DATA-606-2023-FALL-MONDAY/Kanaparthi_Karthik/blob/main/pictures/EDA%201.png" alt="Pie chart on how data divides between factors" width="auto" height="300">
+</p>
+<div align="justify">
+  A pie chart shows how the data is distributed between males and females in sex, whether the individual is a smoker or not, and how the data is divided into different regions. As you can see sex and region pie charts are equally distributed when compared to the smoker pie chart which is 80:20 ratio.
+</div> 
+
+
+#### EDA 2 - Comparison between expenses paid and different groups
+<p align="center">
+  <img src="https://github.com/DATA-606-2023-FALL-MONDAY/Kanaparthi_Karthik/blob/main/pictures/EDA%202.png" alt="Comparison between expenses paid and different groups " width="auto" height="400">
+</p>
+<div align="justify"> 
+  As you can see in the first bar graph that males pay slightly higher than females do.Coming to Smoker bar graph,if individual is smoker then he pays way higher than the individual who isnt smoker.The remaining bar graphs has roughly the same prices.
+</div>
+
+
+#### EDA 3 - Scatter splot of expenses paid vs age and BMI respectively 
+<p align="center">
+  <img src="https://github.com/DATA-606-2023-FALL-MONDAY/Kanaparthi_Karthik/blob/main/pictures/EDA%203.png" alt="Scatter splot of expenses paid vs age and BMI respectively" width="auto" height="400">
+</p>
+<div align="justify"> You can see that there is a definite distinction between the fees that smokers must pay.Additionally we can see that premium costs increase along with an individual's advancing years 
+
+
+## Model Development
+
+
+## Conclusion
+
+
+## Future Work
+
+
+## References
